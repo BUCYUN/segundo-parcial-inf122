@@ -10,7 +10,7 @@ function Metas(){
     const[contP, setContP] = useState (0)
     const addMeta = () => {
         if(nuevaMeta.trim()==='') return;
-        setMetas([...metas, {id: Date.now, temp: nuevaMeta}]);
+        setMetas([...metas, {id: Date.now, tempMeta:nuevaMeta}]);
         setNuevaMeta('');
         setContP(contP+1)
 

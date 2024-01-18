@@ -5,7 +5,7 @@ function Mostrar ({meta, deleteM}) {
 
     return(
         <div className='contenedor-meta'>
-                    <p className='meta'>{meta.temp} 
+                    <p className='meta'>{meta.tempMeta} 
                         <div><button className='boton-borrar' onClick={() => deleteM(meta.id)}>
                                 <img src="../images/icons/tash 1.svg" alt="" />eliminar
                             </button>
