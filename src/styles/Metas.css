@@ -1,0 +1,76 @@
+:root{
+    --red:#B2324A;
+    --green: #117A7A;
+    --white: #F6F7F9;
+    --sm:16px;
+    --gm:40px;
+}
+.contenedor-title{
+    text-align: center;
+    color: var(--white);
+    font-size: var(--gm);
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.contador p{
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    width: 334px;
+    padding: 10px 16px;
+    margin: 15px;
+    background-color: var(--white);
+
+}
+.completado{
+    color: var(--green);
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pendiente{
+    color: var(--red);
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.contenedor-metas{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    cursor: pointer;
+    color: var(--white);
+    display: flex;
+    background-color: var(--green);
+    width: 94px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+input{
+    display: flex;
+    width: 70%;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+    }
